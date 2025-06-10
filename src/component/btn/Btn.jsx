@@ -38,7 +38,7 @@ const menuProps = {
   items,
   onClick: handleMenuClick,
 };
-const About = () => (
+const Btn = () => (
   <Space wrap>
     <Dropdown.Button menu={menuProps} onClick={handleButtonClick}>
       Dropdown
@@ -73,4 +73,4 @@ const About = () => (
     </Dropdown.Button>
   </Space>
 );
-export default About;
+export default Btn;
